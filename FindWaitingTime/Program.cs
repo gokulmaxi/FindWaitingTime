@@ -20,7 +20,6 @@
             names.Add(name);
             names.Sort();
             int index=names.FindIndex(x => x == name);
-            Console.WriteLine(index);
             //calculate to rounds of waiting 
             int waitingRounds = (index)/noOfAgents;
             // +1 since complletion time should be calculated
